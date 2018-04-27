@@ -2,7 +2,7 @@
 
 from distutils.core import setup
 
-setup(name='sitemap_generator',
+setup(name='sitemap_gen',
       version='1.4',
       description='Sitemap Generator',
       license='BSD',
