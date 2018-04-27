@@ -1,19 +1,17 @@
 # sitemap-generator
 
-Sitemap Gen is a python script which will generate an xml Sitemap for your web site.
+Sitemap Generator is a python script which will generate an xml Sitemap for your web site.
 
 ## Overview
 
-The sitemap_gen.py script analyzes your web server and generates one or more Sitemap files. These files are XML listings of content you make available on your web server. The files can be directly submitted to search engines as hints for the search engine web crawlers as they index your web site. This can result in better coverage of your web content in search engine indices, and less of your bandwidth spent doing it.
-The sitemap_gen.py script is written in Python 2.2 and released to the open source community for continuous improvements.
-Sitemapgen is distributed under the terms of the BSD License.
-For downloads, news, and other information, visit our Project Page
+The **sitemap_gen.py** script analyzes your web server and generates one or more Sitemap files. These files are XML listings of content you make available on your web server. The files can be directly submitted to search engines as hints for the search engine web crawlers as they index your web site. This can result in better coverage of your web content in search engine indices, and less of your bandwidth spent doing it.
+
+The **sitemap_gen.py** script is written in *Python 2.2* and released to the open source community for continuous improvements.
 
 ## How to use it ?
 
 ```python
-"""A simple script to automatically produce sitemaps for a webserver,
-in the Google Sitemap Protocol (GSP).
+"""A simple script to automatically produce sitemaps for a webserver, in the Google Sitemap Protocol (GSP).
 
 Usage: python sitemap_gen.py --config=config.xml [--help] [--testing]
             --config=config.xml, specifies config file location
