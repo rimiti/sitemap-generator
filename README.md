@@ -35,9 +35,7 @@ $ python sitemap_gen.py --config=/var/www/yourwebsite.com/sitemap_config.xml
 This project is a fork of [Google Sitemap Generator](http://goog-sitemapgen.sourceforge.net/).
 It has been forked and moved to Github to that it can continue to evolve.
 
-## License
-
-[BSD](https://github.com/rimiti/keldoc-js-sdk/blob/master/LICENSE)
+## License ([BSD](https://github.com/rimiti/keldoc-js-sdk/blob/master/LICENSE))
 
 - [Dimitri DO BAIRRO](https://github.com/rimiti)
 - [Google](opensource@google.com)
