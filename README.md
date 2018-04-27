@@ -11,8 +11,23 @@ For downloads, news, and other information, visit our Project Page
 
 ## How to use it ?
 
+```python
+"""A simple script to automatically produce sitemaps for a webserver,
+in the Google Sitemap Protocol (GSP).
+
+Usage: python sitemap_gen.py --config=config.xml [--help] [--testing]
+            --config=config.xml, specifies config file location
+            --help, displays usage message
+            --testing, specified when user is experimenting
+"""
+```
+
+## Example
+
+Generate your site map file from your website config file.
+
 ```bash
-$ python sitemap_gen.py --config=/var/www/yourwebsite.com/sitemap.xml
+$ python sitemap_gen.py --config=/var/www/yourwebsite.com/sitemap_config.xml
 ```
 
 ## Note
